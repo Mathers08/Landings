@@ -1,8 +1,5 @@
 import './App.css';
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Experience from "./components/Experience";
-import Search from "./components/Search";
+import { Download, Experience, Footer, Header, Hero, Search } from "./components";
 
 function App() {
   return (
@@ -11,6 +8,8 @@ function App() {
       <Hero/>
       <Experience/>
       <Search/>
+      <Download/>
+      <Footer/>
     </div>
   );
 }

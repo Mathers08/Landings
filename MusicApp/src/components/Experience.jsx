@@ -3,7 +3,7 @@ import Feature from "./Feature";
 
 const Experience = () => {
   return (
-    <div className='experience flex flex-col items-center justify-start bg-[#081730] h-[60rem] px-[5rem] pt-[18rem] mt-[-10rem] rounded-b-[5rem] relative z-[2]'>
+    <div className='experience flex flex-col items-center justify-start bg-[#020917] h-[60rem] px-[5rem] pt-[18rem] mt-[-10rem] rounded-b-[5rem] relative z-[2]'>
       <img src={require("../img/Path 318.png")} alt=""/>
       <div className='headline flex flex-col items-center text-[2rem] mt-7'>
         <span>An Amazing App Can Change Your Daily Life</span>
