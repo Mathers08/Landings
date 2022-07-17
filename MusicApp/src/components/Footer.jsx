@@ -3,12 +3,12 @@ import CenterMenu from "./CenterMenu";
 import { Facebook, LinkedIn, Twitter, YouTube } from "@material-ui/icons";
 
 const Footer = () => {
-  const socialStyle = "rounded-full border-2 border-whit p-2 mr-[5rem]"
+  const socialStyle = "rounded-full border-2 border-whit p-2"
 
   return (
-    <div className=" footer flex flex-col items-center justify-start px-[5rem] bg-[#081730] h-[45rem] pt-[18rem] mt-[-10rem] relative z-[-1]">
+    <footer className="flex flex-col items-center bg-[#081730] h-[45rem] pt-[18rem] mt-[-10rem] relative z-[-1]">
       <CenterMenu />
-      <div className="flex w-[100%] justify-center mt-14">
+      <div className="flex justify-center mt-14 gap-[5rem]">
         <div className={socialStyle}>
           <Facebook />
         </div>
@@ -22,11 +22,11 @@ const Footer = () => {
           <LinkedIn />
         </div>
       </div>
-      <span className="text-[1rem] text-gray-400 px-[15rem] text-center mt-[4rem]">
+      <span className="text-[1rem] text-gray-400 text-center mt-[4rem]">
         Duis feugiat congue metus, ultrices vulputate nibh viverra eget.
         Vestibulum ullamcorper volutpat varius.
       </span>
-    </div>
+    </footer>
   );
 };
 
