@@ -4,466 +4,137 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Minimo</title>
   <link rel="stylesheet" href="./css/style.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 <body class="main__body">
   <!-- Header -->
   <header>
   <!-- Navbar -->
   <nav>
-    <div class="container">
-      <div class="navbar">
-        <div class="navbar__logo"><img src="./img/main_logo.png" alt="logo"/></div>
-        <div class="navbar__header">
-          <div class="info">
-            <p class="info__text">Продажа запасных частей ГАЗ, ВАЗ, ПАЗ, УАЗ, КАМАЗ</p>
-            <div class="info__list">
-              <div class="info__list-item">
-                <img src="./img/telephone.png" alt="telephone" class="item-img"/>
-                <div class="item__info">
-                  <div class="item__info-text">Отдел продаж:</div>
-                  <div class="item__info-strong">7 (831) 418-58-57</div>
-                  <div class="item__info-strong">7 (831) 418-58-56</div>
-                </div>
-              </div>
-              <div class="info__list-item">
-                <img src="./img/time.png" alt="time" class="item-img"/>
-                <div class="item__info">
-                  <div class="item__info-text">Время работы:</div>
-                  <div class="item__info-strong">8:30 - 16:30</div>
-                  <div class="item__info-text">сб,вс - выходной</div>
-                </div>
-              </div>
-              <div class="info__list-item">
-                <img src="./img/address.png" alt="address" class="item-img"/>
-                <div class="item__info">
-                  <div class="item__info-text">Адрес:</div>
-                  <div class="item__info-strong">г. Нижний Новгород Чаадаева 1у\1</div>
-                  <a class="item__info-link" href="#">Схема проезда</a>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo"><a href="#">Minimo</a></div>
           <ul class="menu">
-            <li class="menu__item main">
-              <img src="./img/menu-item.png" alt="menu"/>
-              <a href="#" class="menu__item-link">Каталог</a>
-            </li>
-            <li class="menu__item"><a href="#" class="menu__item-link">Главная</a></li>
-            <li class="menu__item"><a href="#" class="menu__item-link">О компании</a></li>
-            <li class="menu__item"><a href="#" class="menu__item-link">Партнерам</a></li>
-            <li class="menu__item"><a href="#" class="menu__item-link">Контакты</a></li>
+            <li class="menu__item"><a href="#" class="menu__item-link">Lifestyle</a></li>
+            <li class="menu__item"><a href="#" class="menu__item-link">Photodiary</a></li>
+            <li class="menu__item"><a href="#" class="menu__item-link">Music</a></li>
+            <li class="menu__item"><a href="#" class="menu__item-link">Travel</a></li>
           </ul>
           <div class="burger">
             <span></span>
           </div>
         </div>
-      </div>
-    </div>
-  </nav>
 
-  <div class="popup" id="popup"></div>
+        <div class="intro">
+          <img class="intro__img" src="./img/intro.jpg" alt="">
+        </div>
+      </div>
+
+  </nav>
 </header>
 
 
   <!-- Main Page -->
   <main>
     <!-- Sections -->
-    <!-- Hero -->
-    <section class="section__hero">
-  <div class="container">
-    <img class="bg" src="./img/hero-bg.png" alt="bg">
-    <div class="hero">
-      <div class="hero__title">Автозапчасти</div>
-      <div class="hero__subtitle">для автомобилей марок ГАЗ, ВАЗ, КАМАЗ, ПАЗ и УАЗ</div>
-      <button class="btn hero__btn">
-        Перейти
-        <img src="./img/arrow_right.svg" alt="arrow">
-      </button>
-    </div>
-  </div>
-</section>
-    <!-- Sell -->
-    <section class="section__sell">
-  <div class="container">
-    <div class="sell">
-      <div class="sell__title">Продажа запасных частей для авто</div>
-      <div class="sell__list">
-        <div class="sell__list-item">
-          <span class="mark mark1"></span>
-          <img class="item__img" src="./img/sell_1.png" alt="sell">
-          <div class="item__title">Двигатель</div>
-          <div class="item__text">Картеры масляные Крышки клапанов Насосы масляные</div>
-          <div class="item__btn">
-            Перейти
-            <img src="./img/arrow_right.svg" alt="arrow"/>
-          </div>
-        </div>
-        <div class="sell__list-item">
-          <span class="mark mark2"></span>
-          <img class="item__img" src="./img/sell_2.png" alt="sell">
-          <div class="item__title">Система питания</div>
-          <div class="item__text">Картеры масляные Крышки клапанов Насосы масляные</div>
-          <div class="item__btn">
-            Перейти
-            <img src="./img/arrow_right.svg" alt="arrow"/>
-          </div>
-        </div>
-        <div class="sell__list-item">
-          <span class="mark mark3"></span>
-          <img class="item__img" src="./img/sell_3.png" alt="sell">
-          <div class="item__title">Система охлаждения</div>
-          <div class="item__text">Картеры масляные Крышки клапанов Насосы масляные</div>
-          <div class="item__btn">
-            Перейти
-            <img src="./img/arrow_right.svg" alt="arrow"/>
-          </div>
-        </div>
-        <div class="sell__list-item">
-          <span class="mark mark4"></span>
-          <img class="item__img" src="./img/sell_4.png" alt="sell">
-          <div class="item__title">Сцепление </div>
-          <div class="item__text">Картеры масляные Крышки клапанов Насосы масляные</div>
-          <div class="item__btn">
-            Перейти
-            <img src="./img/arrow_right.svg" alt="arrow"/>
-          </div>
-        </div>
-        <div class="sell__list-item">
-          <span class="mark mark5"></span>
-          <img class="item__img" src="./img/sell_5.png" alt="sell">
-          <div class="item__title">Коробка передач </div>
-          <div class="item__text">Картеры масляные Крышки клапанов Насосы масляные</div>
-          <div class="item__btn">
-            Перейти
-            <img src="./img/arrow_right.svg" alt="arrow"/>
-          </div>
-        </div>
-        <div class="sell__list-item">
-          <span class="mark mark6"></span>
-          <img class="item__img" src="./img/sell_6.png" alt="sell">
-          <div class="item__title">Карданный вал</div>
-          <div class="item__text">Картеры масляные Крышки клапанов Насосы масляные</div>
-          <div class="item__btn">
-            Перейти
-            <img src="./img/arrow_right.svg" alt="arrow"/>
-          </div>
-        </div>
-        <div class="sell__list-item">
-          <span class="mark mark7"></span>
-          <img class="item__img" src="./img/sell_7.png" alt="sell">
-          <div class="item__title">Мост передний и задний</div>
-          <div class="item__text">Картеры масляные Крышки клапанов Насосы масляные</div>
-          <div class="item__btn">
-            Перейти
-            <img src="./img/arrow_right.svg" alt="arrow"/>
-          </div>
-        </div>
-        <div class="sell__list-item">
-          <span class="mark mark8"></span>
-          <img class="item__img" src="./img/sell_8.png" alt="sell">
-          <div class="item__title">Подвеска</div>
-          <div class="item__text">Картеры масляные Крышки клапанов Насосы масляные</div>
-          <div class="item__btn">
-            Перейти
-            <img src="./img/arrow_right.svg" alt="arrow"/>
-          </div>
-        </div>
-        <div class="sell__list-item">
-          <span class="mark mark9"></span>
-          <img class="item__img" src="./img/sell_9.png" alt="sell">
-          <div class="item__title">Колеса и ступицы</div>
-          <div class="item__text">Картеры масляные Крышки клапанов Насосы масляные</div>
-          <div class="item__btn">
-            Перейти
-            <img src="./img/arrow_right.svg" alt="arrow"/>
-          </div>
-        </div>
-        <div class="sell__list-item">
-          <span class="mark mark10"></span>
-          <img class="item__img" src="./img/sell_10.png" alt="sell">
-          <div class="item__title">Тормоза</div>
-          <div class="item__text">Картеры масляные Крышки клапанов Насосы масляные</div>
-          <div class="item__btn">
-            Перейти
-            <img src="./img/arrow_right.svg" alt="arrow"/>
-          </div>
-        </div>
-        <div class="sell__list-item">
-          <span class="mark mark11"></span>
-          <img class="item__img" src="./img/sell_11.png" alt="sell">
-          <div class="item__title">Рулевое управление</div>
-          <div class="item__text">Картеры масляные Крышки клапанов Насосы масляные</div>
-          <div class="item__btn">
-            Перейти
-            <img src="./img/arrow_right.svg" alt="arrow"/>
-          </div>
-        </div>
-        <div class="sell__list-item">
-          <span class="mark mark12"></span>
-          <img class="item__img" src="./img/sell_12.png" alt="sell">
-          <div class="item__title">Электро-оборудование</div>
-          <div class="item__text">Картеры масляные Крышки клапанов Насосы масляные</div>
-          <div class="item__btn">
-            Перейти
-            <img src="./img/arrow_right.svg" alt="arrow"/>
-          </div>
-        </div>
-        <div class="sell__list-item">
-          <span class="mark mark13"></span>
-          <img class="item__img" src="./img/sell_13.png" alt="sell">
-          <div class="item__title">Отопление и вентияляция</div>
-          <div class="item__text">Картеры масляные Крышки клапанов Насосы масляные</div>
-          <div class="item__btn">
-            Перейти
-            <img src="./img/arrow_right.svg" alt="arrow"/>
-          </div>
-        </div>
-        <div class="sell__list-item last__item">
-          <img class="item__img" src="./img/sell_14.png" alt="sell">
-          <div class="item__title">Каталог запасных частей</div>
-          <div class="item__btn">
-            Перейти
-            <img src="./img/arrow_right.svg" alt="arrow"/>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
     <!-- About -->
     <section class="section__about">
   <div class="container">
     <div class="about">
-      <a class="about__img"><img src="./img/about.png" alt="img"/></a>
-      <div class="about__content">
-        <div class="about__content-title">О компании</div>
-        <div class="about__content-text">На протяжении 6 лет компания «Автомастер» занимается поставками автозапчастей ГАЗ, УАЗ, ПАЗ, ВАЗ, Камаз.
-          Мы специализируемся на продвижение своего бренда ТМ PRAVT – сертифицированная торговая марка российской компании.
-          Наша география расширяется по всей России и ближнему зарубежью, мы стали узнаваемые.<br><br>На сегодняшний день ассортимент нашей продукции более 600 позиций.
-          С каждым годом прогресс увеличения ассортимента
-          составляет не менее чем на 35%.
-          Производственные мощности, партнеры компании расположены на территории КНР.
+      <div class="about__info">
+        <div class="about__info-title">Photodiary</div>
+        <div class="about__info-subtitle">The perfect weekend getaway</div>
+        <div class="about__info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ex quibusdam blanditiis maiores reiciendis id a labore praesentium dicta numquam dolorum vitae. Nobis repellat laborum nihil eaque aut tenetur fugit! Quos facilis, dolorem veritatis cupiditate voluptas qui nulla, numquam adipisci quibusdam corporis distinctio saepe recusandae obcaecati in asperiores. Voluptatibus magnam maiores harum molestias ab vitae aliquam voluptatum illum illo reiciendis! Hic deleniti vero soluta natus ea aliquam fuga nulla atque, maxime asperiores assumenda aspernatur. Atque sint rerum eos facilis repellat pariatur quis iste. Labore dignissimos facere officia illo repellendus atque? Quam sunt unde, repellendus a, facere aliquam perferendis id aspernatur facilis et assumenda modi hic sint laboriosam dolorum, soluta eveniet eaque repudiandae magni quas rerum cum quo? Illo, corporis sed.</div>
+        <p>Leave a comment</p>
+      </div>
+      <div class="about__list">
+        <div class="about__list-item">
+          <img class="list__img" src="./img/about_1.jpg" alt="lifestyle"/>
+          <div class="list__title">Lifestyle</div>
+          <div class="list__subtitle">More than just a music festival</div>
+          <div class="list__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, quis. Asperiores earum dolores reprehenderit animi voluptatibus veniam totam dolorum, eveniet impedit recusandae neque!</div>
         </div>
-        <div class="about__content-btn">
-          Подробнее
-          <img src="./img/arrow_right.svg" alt="arrow" class="arrow"/>
+        <div class="about__list-item">
+          <img class="list__img" src="./img/about_2.jpg" alt="lifestyle"/>
+          <div class="list__title">Lifestyle</div>
+          <div class="list__subtitle">Life tastes better with coffee</div>
+          <div class="list__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, quis. Asperiores earum dolores reprehenderit animi voluptatibus veniam totam dolorum, eveniet impedit recusandae neque!</div>
+        </div>
+        <div class="about__list-item">
+          <img class="list__img" src="./img/about_3.jpg" alt="lifestyle"/>
+          <div class="list__title">Photodiary</div>
+          <div class="list__subtitle">American dream</div>
+          <div class="list__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, quis. Asperiores earum dolores reprehenderit animi voluptatibus veniam totam dolorum, eveniet impedit recusandae neque!</div>
+        </div>
+        <div class="about__list-item">
+          <img class="list__img" src="./img/about_4.jpg" alt="lifestyle"/>
+          <div class="list__title">Photodiary</div>
+          <div class="list__subtitle">A day exploring the Alps</div>
+          <div class="list__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, quis. Asperiores earum dolores reprehenderit animi voluptatibus veniam totam dolorum, eveniet impedit recusandae neque!</div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+    <!-- Sign -->
+    <section class="section__sign">
+  <div class="sign">
+    <div class="sign__title">Sign up for our newsletter!</div>
+    <form action="" class="sign__form">
+      <input type="text" class="sign__form-input" placeholder="Enter a valid email address"/>
+      <a href="#" class="sign__form-btn btn">Send</a>
+    </form>
+  </div>
+</section>
+
     <!-- News -->
     <section class="section__news">
   <div class="container">
     <div class="news">
-      <div class="news__header">
-        <img class="header-img" src="./img/news_autos.png" alt="autos"/>
-        <div class="news__main">
-          <h2 class="news__main-title">Новости</h2>
-          <p class="news__main-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt lorem
-            placerat molestie arcu placerat
-          </p>
-          <div class="news__main-list">
-            <div class="list__item">
-              <div class="list__item-img"><img src="./img/news_1.png" alt="img"/></div>
-              <div class="list__item-title">Новинки амортизаторы</div>
-              <div class="list__item-footer">
-                <div class="news__date">24.06.2022</div>
-                <div class="news__btn">
-                  Подробнее
-                  <img src="./img/arrow_right.svg" alt="arrow"/>
-                </div>
-              </div>
-            </div>
-            <div class="list__item">
-              <div class="list__item-img"><img src="./img/news_2.png" alt="img"/></div>
-              <div class="list__item-title">Ожидаемое поступление на склад – вакуумный усилитель тормозов</div>
-              <div class="list__item-footer">
-                <div class="news__date">24.06.2022</div>
-                <div class="news__btn">
-                  Подробнее
-                  <img src="./img/arrow_right.svg" alt="arrow"/>
-                </div>
-              </div>
-            </div>
-            <div class="list__item">
-              <div class="list__item-img"><img src="./img/news_3.png" alt="img"/></div>
-              <div class="list__item-title">Вновь на складе</div>
-              <div class="list__item-footer">
-                <div class="news__date">24.06.2022</div>
-                <div class="news__btn">
-                  Подробнее
-                  <img src="./img/arrow_right.svg" alt="arrow"/>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="news__list">
+        <div class="news__list-item">
+          <img class="list__img" src="./img/about_5.jpg" alt="lifestyle"/>
+          <div class="list__title">Lifestyle</div>
+          <div class="list__subtitle">Top 10 song for running</div>
+          <div class="list__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, quis. Asperiores earum dolores reprehenderit animi voluptatibus veniam totam dolorum, eveniet impedit recusandae neque!</div>
+        </div>
+        <div class="news__list-item">
+          <img class="list__img" src="./img/about_6.jpg" alt="lifestyle"/>
+          <div class="list__title">Lifestyle</div>
+          <div class="list__subtitle">Cold winter days</div>
+          <div class="list__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, quis. Asperiores earum dolores reprehenderit animi voluptatibus veniam totam dolorum, eveniet impedit recusandae neque!</div>
         </div>
       </div>
-    </div>
-</section>
-    <!-- Info -->
-    <section class="section__info">
-  <div class="container">
-    <div class="info">
-      <h2 class="info__title">БЕЗОПАСНОСТЬ, КОМФОРТ, НАДЕЖНОСТЬ!</h2>
-      <div class="info__block">
-        <div class="info__block-item1">
-          Вся продукция изготовлена в соответствии с Директивой Европейского парламента и Совета Европейского Союза
-          2007/46/ЕС от 5 сентября 2007 г.
-          На всю продукцию, которая требует подтверждения безопасности использования на территории РФ и Таможенного
-          союза есть подтверждение соответствию требованиям техническим регламентов:
-          <strong>ТР ТС 018/2011 и ТР ТС 010/2011</strong>
-        </div>
-        <div class="info__block-item2">
-          <div class="item-title">Варианты оплаты:</div>
-          <div class="item-text">
-            - Оплата наличными <br>
-            - Для юридических лиц возможен безналичный расчёт с НДС, для ближнего зарубежья без НДС
-          </div>
-          <div class="item-subtitle">Так же принимаем к оплате:</div>
-          <div class="item-img">
-            <img src="./img/visa.png" alt="visa">
-            <img src="./img/mastercard.png" alt="mastercard">
-          </div>
-        </div>
-        <div class="info__block-item3">
-          <img src="./img/tirsan.png" alt="logo" class="item-logo">
-          <p class="item-text">
-            Также, наша компания является официальным представителем TIRSAN KARDAN (Тирсан Кардан) на территории
-            Нижегородской области. Продукция успешно присутствует
-            на российском рынке свыше 9 лет.
-          </p>
-        </div>
-      </div>
-      <div class="info__list">
-        <div class="info__list-item">
-          <img src="./img/info_1.png" alt="logo" class="item-logo">
-          <div class="item__block">
-            <div class="item__block-title">Гарантия качества</div>
-            <div class="item__block-subtitle">Lorem ipsum dolor sit amet, consectetur </div>
-          </div>
-        </div>
-        <div class="info__list-item">
-          <img src="./img/info_2.png" alt="logo" class="item-logo">
-          <div class="item__block">
-            <div class="item__block-title">Быстрая доставка</div>
-            <div class="item__block-subtitle">Lorem ipsum dolor sit amet, consectetur </div>
-          </div>
-        </div>
-        <div class="info__list-item">
-          <img src="./img/info_3.png" alt="logo" class="item-logo">
-          <div class="item__block">
-            <div class="item__block-title">Конкурентные цены</div>
-            <div class="item__block-subtitle">Lorem ipsum dolor sit amet, consectetur </div>
-          </div>
-        </div>
-        <div class="info__list-item">
-          <img src="./img/info_4.png" alt="logo" class="item-logo">
-          <div class="item__block">
-            <div class="item__block-title">Персональный менеджер</div>
-            <div class="item__block-subtitle">Lorem ipsum dolor sit amet, consectetur </div>
-          </div>
-        </div>
-      </div>
+      <a href="#" class="btn">Lead more</a>
     </div>
   </div>
 </section>
+
 
   </main>
 
   <!-- Footer -->
-  <footer class="footer__block">
+  <footer class="section__footer">
   <div class="container">
     <div class="footer">
       <div class="footer__left">
-        <img class="footer__left-logo" src="./img/main_logo.png" alt="logo"/>
-        <p class="footer__left-text">Продажа запасных частей ГАЗ, ВАЗ, ПАЗ, УАЗ, КАМАЗ</p>
-        <div class="footer__left-download">
-          <img class="pdf-img" src="./img/pdf.png" alt="pdf"/>
-          <div class="links">
-            <a href="#">Скачать каталог</a>
-            <a href="#">Запросить прайс</a>
-          </div>
-        </div>
-        <div class="social">
-          <img class="vk-img" src="./img/vk.png" alt="vk"/>
-          <img class="telegram-img" src="./img/telegram.png" alt="telegram"/>
-        </div>
-      </div>
-      <div class="footer__middle">
-        <div class="footer__middle-textBlock">
-          <p>Каталог</p>
-          <p>О компании</p>
-          <p>Партнерам</p>
-          <p>Новости</p>
-          <p>Контакты</p>
-        </div>
-        <div class="footer__middle-textBlock">
-          <p>Трансмиссия</p>
-          <p>Система охлаждения</p>
-          <p>Электрика</p>
-          <p>Система отопления</p>
-          <p>Амортизаторы</p>
-        </div>
-        <div class="footer__middle-textBlock">
-          <p>Сцепление и тормозная система</p>
-          <p>Ролики, натяжители и приводные ремни</p>
-          <p>Ремкомплекты и рулевое управление</p>
-          <p>Двигатель и КПП</p>
-        </div>
+        <div class="footer__left-item">Terms and conditions</div>
+        <div class="footer__left-item">Privacy</div>
       </div>
       <div class="footer__right">
-        <div class="footer__right-item">
-          <img src="./img/telephone.png" alt="telephone" class="item-img"/>
-          <div class="item-info">
-            <div class="info-text">Отдел продаж:</div>
-            <div class="info-strong">7 (831) 418-58-57</div>
-            <div class="info-strong">7 (831) 418-58-56</div>
-          </div>
-        </div>
-        <div class="footer__right-item">
-          <img src="./img/time.png" alt="time" class="item-img"/>
-          <div class="item-info">
-            <div class="info-text">Время работы:</div>
-            <div class="info-strong">8:30 - 16:30</div>
-            <div class="info-text">сб,вс - выходной</div>
-          </div>
-        </div>
-        <div class="footer__right-item">
-          <img src="./img/address.png" alt="address" class="item-img"/>
-          <div class="item-info">
-            <div class="info-text">Адрес:</div>
-            <div class="info-strong">г. Нижний Новгород Чаадаева 1у\1</div>
-            <a class="info-link" href="#">Схема проезда</a>
-          </div>
-        </div>
+        <div class="footer__right-item">Follow</div>
+        <a href="#" class="footer__right-item"><img src="./img/facebook.svg" alt="icon"></a>
+        <a href="#" class="footer__right-item"><img src="./img/twitter.svg" alt="icon"></a>
+        <a href="#" class="footer__right-item"><img src="./img/instagram.svg" alt="icon"></a>
       </div>
     </div>
   </div>
 </footer>
 
-<footer class="footer__copyright">
-  <div class="container">
-    <div class="copyright">
-      <div class="copyright__left">
-        <p>© 2016 – 2022</p>
-        <p class="copyright__left-item">pravt</p>
-        <p>Все права защищены</p>
-      </div>
-      <div class="copyright__right">
-        <p>Политика безопасности</p>
-        <div class="copyright__right-img">
-          <img src="./img/visa.png" alt="visa"/>
-          <img src="./img/mastercard.png" alt="mastercard"/>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
 
   <script src="./js/script.min.js"></script>
 </body>
