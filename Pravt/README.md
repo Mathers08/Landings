@@ -14,7 +14,7 @@ Technologies were used during development:
 ![img](https://user-images.githubusercontent.com/70015560/182381403-848cede5-20e1-4737-a704-8d88baaf5f61.png)
 
 ### // Flexable elements
-![img_2](https://user-images.githubusercontent.com/70015560/182381482-3585adee-1ffc-44d0-b98f-18cbfeb8d172.png)
+![image](https://user-images.githubusercontent.com/70015560/182381796-f7bb3a5e-8740-4bdd-8fd0-0f5f3fa0c028.png)
 
 ### // Footer
 ![img_3](https://user-images.githubusercontent.com/70015560/182381504-a038e736-df73-4d52-8672-157284cbc005.png)
