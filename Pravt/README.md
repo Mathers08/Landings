@@ -11,13 +11,13 @@ Technologies were used during development:
 ## _Small overview_
 
 ### // Header and Hero
-![img.png](img.png)
+![img](https://user-images.githubusercontent.com/70015560/182381403-848cede5-20e1-4737-a704-8d88baaf5f61.png)
 
 ### // Flexable elements
-![img_2.png](img_2.png)
+![img_2](https://user-images.githubusercontent.com/70015560/182381482-3585adee-1ffc-44d0-b98f-18cbfeb8d172.png)
 
 ### // Footer
-![img_3.png](img_3.png)
+![img_3](https://user-images.githubusercontent.com/70015560/182381504-a038e736-df73-4d52-8672-157284cbc005.png)
 
 ### You can find the gulpfile in the repository.
 
@@ -25,8 +25,8 @@ Technologies were used during development:
 
 ## _Responsive design_
 
-![img_4.png](img_4.png)
+![img_4](https://user-images.githubusercontent.com/70015560/182381538-a4695a14-5b2b-46c7-898b-505529e17538.png)
 
 #
 
-![img_5.png](img_5.png)
+![img_5](https://user-images.githubusercontent.com/70015560/182381573-81f62308-0cc5-4c87-9897-e3c863a5c94b.png)
